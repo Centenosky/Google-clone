@@ -10,6 +10,10 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   width: 100%;
   height: 60px;
@@ -25,12 +29,12 @@ header nav .nav-right-section {
   height: auto;
   display: flex;
   list-style: none;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
 nav .nav-right-section a {
-  margin-right: 10px;
+  margin-right: 15px;
   color: #000000;
 }
 
@@ -41,32 +45,39 @@ nav .nav-right-section .menu-icon {
   background-size: contain;
   width: 25px;
   height: 25px;
+  opacity: .6;
+  cursor: pointer;
+}
+
+nav .nav-right-section .menu-icon:hover {
+  opacity: 1;
 }
 
 nav .nav-right-section img {
   border-radius: 50%;
-  margin-left: 10px;
+  margin-left: 15px;
+  margin-right: 14px;
 }
 
 main {
-  margin-top: 150px;
+  margin-top: 138px;
   text-align: center;
 }
 
 main .main-logo {
-  width: 530px;
+  width: 587px;
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 22px;
 }
 
 main .main-input {
-  width: 520px;
+  width: 577px;
   margin: 0 auto;
   margin-bottom: 35px;
 }
 
 main .main-input-container {
-  width: 525px;
+  width: 582px;/* 582 */
   border-radius: 100px;
   border: 1px solid #dfe1e5;
   display: flex;
@@ -75,7 +86,7 @@ main .main-input-container {
 }
 
 main .main-input input {
-  width: 450px;
+  width: 502px;
   height: 40px;
   border: none;
   outline: none;
@@ -135,13 +146,13 @@ main .main-buttons button:hover {
 
 footer {
   width: 100%;
-  height: 50px;
+  height: 40px;
   position: absolute;
   bottom: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  font-size: 13px;
+  font-size: 14px;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
 }
@@ -152,6 +163,15 @@ footer ul {
   display: flex;
   padding-left: 0;
 }
+
+footer ul li:nth-child(1) {
+  margin-left: 6px;
+}
+
+footer .footer-right li:nth-child(3) {
+  margin-right: 7px;
+}
+
  footer .footer-left {
    justify-self: left;
  }
@@ -161,6 +181,6 @@ footer ul {
  }
 
  footer ul li a {
-   margin: 10px;
+   margin: 13.5px;
    color: #5f6368;
  }
