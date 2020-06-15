@@ -106,6 +106,7 @@ main .main-input .search-icon {
   width: 18px;
   height: 18px;
   opacity: .4;
+  margin-right: 10px;
 }
 
 main .main-input .micro-icon {
