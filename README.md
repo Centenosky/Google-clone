@@ -1,5 +1,5 @@
 # Clon de Google
 
-Creado con el curso Práctico de HTML y CSS de Platzi :green_heart:
+Creado con el Curso de Single Page Application con JavaScript Vanilla de Platzi :green_heart:
 
-Curso [Práctico de HTML y CSS](https://platzi.com/clases/html-practico/).
+Curso [Single Page Application con JavaScript Vanilla](https://platzi.com/clases/spa-javascript/).
